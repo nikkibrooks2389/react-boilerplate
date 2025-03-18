@@ -1,0 +1,10 @@
+/* ✅ Styles for individual pages */
+.home-page {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .about-page {
+    padding: 20px;
+    color: #333;
+  }
