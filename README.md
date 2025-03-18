@@ -1,12 +1,49 @@
-# React + Vite
+ React Starter Kit (Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and fast React starter template using Vite.
 
-Currently, two official plugins are available:
+📌 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Vite for fast development
+- React Router for navigation
+- Modular CSS structure
+- Clean and scalable folder structure
 
-## Expanding the ESLint configuration
+📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+src/
+├── components/     # Reusable UI components
+├── pages/          # Page components
+├── routes/         # Route configurations
+├── styles/         # CSS files
+├── App.jsx         # Main App component
+├── main.jsx        # Entry point
+└── vite.config.js  # Vite configuration
+
+🚀 Getting Started
+
+1️⃣ Install Dependencies
+
+npm install
+
+2️⃣ Start Development Server
+
+npm run dev
+
+3️⃣ Build for Production
+
+npm run build
+
+🌍 Deploying to GitHub
+
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/your-username/repo-name.git
+git push -u origin main
+
+📜 License
+
+This project is open-source and free to use. Enjoy coding! 🚀
+
